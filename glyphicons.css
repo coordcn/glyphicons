@@ -1,0 +1,1458 @@
+
+/*! * * Project: GLYPHICONS * Author: Jan Kovarik - www.icon.com * Twitter: @jankovarik **/
+
+.row { *zoom: 1; }
+
+.row:before, .row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after { clear: both; }
+
+h1{font-size:20px;}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+li{
+  width: 40px;
+  height: 40px;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  line-height : 40px;
+}
+
+@font-face {
+	font-family: 'Glyphicons Regular';
+	src: url('glyphicons-regular.eot');
+	src: url('glyphicons-regular.eot?#iefix') format('embedded-opentype'),url('glyphicons-regular.woff') format('woff'),url('glyphicons-regular.ttf') format('truetype'),url('glyphicons-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+  display: inline-block;
+  font-family: Glyphicons Regular;
+  font-style: normal;
+  font-weight: normal;
+  width: 40px;
+  height: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E001" ); }
+.glass:before { content: "\E001"; }
+
+.leaf { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E002" ); }
+.leaf:before { content: "\E002"; }
+
+.dog { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E003" ); }
+.dog:before { content: "\E003"; }
+
+.user { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E004" ); }
+.user:before { content: "\E004"; }
+
+.girl { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E005" ); }
+.girl:before { content: "\E005"; }
+
+.car { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E006" ); }
+.car:before { content: "\E006"; }
+
+.user_add { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E007" ); }
+.user_add:before { content: "\E007"; }
+
+.user_remove { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E008" ); }
+.user_remove:before { content: "\E008"; }
+
+.film { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E009" ); }
+.film:before { content: "\E009"; }
+
+.magic { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E010" ); }
+.magic:before { content: "\E010"; }
+
+.envelope { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2709" ); }
+.envelope:before { content: "\2709"; }
+
+.camera { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E011" ); }
+.camera:before { content: "\E011"; }
+
+.heart { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E013" ); }
+.heart:before { content: "\E013"; }
+
+.beach_umbrella { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E014" ); }
+.beach_umbrella:before { content: "\E014"; }
+
+.train { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E015" ); }
+.train:before { content: "\E015"; }
+
+.print { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E016" ); }
+.print:before { content: "\E016"; }
+
+.bin { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E017" ); }
+.bin:before { content: "\E017"; }
+
+.music { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E018" ); }
+.music:before { content: "\E018"; }
+
+.note { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E019" ); }
+.note:before { content: "\E019"; }
+
+.heart_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E020" ); }
+.heart_empty:before { content: "\E020"; }
+
+.home { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E021" ); }
+.home:before { content: "\E021"; }
+
+.snowflake { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2744" ); }
+.snowflake:before { content: "\2744"; }
+
+.fire { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E023" ); }
+.fire:before { content: "\E023"; }
+
+.magnet { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E024" ); }
+.magnet:before { content: "\E024"; }
+
+.parents { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E025" ); }
+.parents:before { content: "\E025"; }
+
+.binoculars { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E026" ); }
+.binoculars:before { content: "\E026"; }
+
+.road { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E027" ); }
+.road:before { content: "\E027"; }
+
+.search { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E028" ); }
+.search:before { content: "\E028"; }
+
+.cars { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E029" ); }
+.cars:before { content: "\E029"; }
+
+.notes_2 { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E030" ); }
+.notes_2:before { content: "\E030"; }
+
+.pencil { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\270F" ); }
+.pencil:before { content: "\270F"; }
+
+.bus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E032" ); }
+.bus:before { content: "\E032"; }
+
+.wifi_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E033" ); }
+.wifi_alt:before { content: "\E033"; }
+
+.luggage { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E034" ); }
+.luggage:before { content: "\E034"; }
+
+.old_man { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E035" ); }
+.old_man:before { content: "\E035"; }
+
+.woman { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E036" ); }
+.woman:before { content: "\E036"; }
+
+.file { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E037" ); }
+.file:before { content: "\E037"; }
+
+.coins { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E038" ); }
+.coins:before { content: "\E038"; }
+
+.airplane { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2708" ); }
+.airplane:before { content: "\2708"; }
+
+.notes { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E040" ); }
+.notes:before { content: "\E040"; }
+
+.stats { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E041" ); }
+.stats:before { content: "\E041"; }
+
+.charts { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E042" ); }
+.charts:before { content: "\E042"; }
+
+.pie_chart { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E043" ); }
+.pie_chart:before { content: "\E043"; }
+
+.group { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E044" ); }
+.group:before { content: "\E044"; }
+
+.keys { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E045" ); }
+.keys:before { content: "\E045"; }
+
+.calendar { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E046" ); }
+.calendar:before { content: "\E046"; }
+
+.router { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E047" ); }
+.router:before { content: "\E047"; }
+
+.camera_small { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E048" ); }
+.camera_small:before { content: "\E048"; }
+
+.star_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E049" ); }
+.star_empty:before { content: "\E049"; }
+
+.star { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E050" ); }
+.star:before { content: "\E050"; }
+
+.link { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E051" ); }
+.link:before { content: "\E051"; }
+
+.eye_open { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E052" ); }
+.eye_open:before { content: "\E052"; }
+
+.eye_close { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E053" ); }
+.eye_close:before { content: "\E053"; }
+
+.alarm { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E054" ); }
+.alarm:before { content: "\E054"; }
+
+.clock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E055" ); }
+.clock:before { content: "\E055"; }
+
+.stopwatch { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E056" ); }
+.stopwatch:before { content: "\E056"; }
+
+.projector { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E057" ); }
+.projector:before { content: "\E057"; }
+
+.history { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E058" ); }
+.history:before { content: "\E058"; }
+
+.truck { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E059" ); }
+.truck:before { content: "\E059"; }
+
+.cargo { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E060" ); }
+.cargo:before { content: "\E060"; }
+
+.compass { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E061" ); }
+.compass:before { content: "\E061"; }
+
+.keynote { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E062" ); }
+.keynote:before { content: "\E062"; }
+
+.paperclip { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E063" ); }
+.paperclip:before { content: "\E063"; }
+
+.power { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E064" ); }
+.power:before { content: "\E064"; }
+
+.lightbulb { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E065" ); }
+.lightbulb:before { content: "\E065"; }
+
+.tag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E066" ); }
+.tag:before { content: "\E066"; }
+
+.tags { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E067" ); }
+.tags:before { content: "\E067"; }
+
+.cleaning { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E068" ); }
+.cleaning:before { content: "\E068"; }
+
+.ruller { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E069" ); }
+.ruller:before { content: "\E069"; }
+
+.gift { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E070" ); }
+.gift:before { content: "\E070"; }
+
+.umbrella { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2602" ); }
+.umbrella:before { content: "\2602"; }
+
+.book { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E072" ); }
+.book:before { content: "\E072"; }
+
+.bookmark { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E073" ); }
+.bookmark:before { content: "\E073"; }
+
+.wifi { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E074" ); }
+.wifi:before { content: "\E074"; }
+
+.cup { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E075" ); }
+.cup:before { content: "\E075"; }
+
+.stroller { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E076" ); }
+.stroller:before { content: "\E076"; }
+
+.headphones { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E077" ); }
+.headphones:before { content: "\E077"; }
+
+.headset { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E078" ); }
+.headset:before { content: "\E078"; }
+
+.warning_sign { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E079" ); }
+.warning_sign:before { content: "\E079"; }
+
+.signal { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E080" ); }
+.signal:before { content: "\E080"; }
+
+.retweet { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E081" ); }
+.retweet:before { content: "\E081"; }
+
+.refresh { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E082" ); }
+.refresh:before { content: "\E082"; }
+
+.roundabout { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E083" ); }
+.roundabout:before { content: "\E083"; }
+
+.random { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E084" ); }
+.random:before { content: "\E084"; }
+
+.heat { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E085" ); }
+.heat:before { content: "\E085"; }
+
+.repeat { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E086" ); }
+.repeat:before { content: "\E086"; }
+
+.display { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E087" ); }
+.display:before { content: "\E087"; }
+
+.log_book { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E088" ); }
+.log_book:before { content: "\E088"; }
+
+.address_book { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E089" ); }
+.address_book:before { content: "\E089"; }
+
+.building { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E090" ); }
+.building:before { content: "\E090"; }
+
+.eyedropper { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E091" ); }
+.eyedropper:before { content: "\E091"; }
+
+.adjust { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E092" ); }
+.adjust:before { content: "\E092"; }
+
+.tint { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E093" ); }
+.tint:before { content: "\E093"; }
+
+.crop { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E094" ); }
+.crop:before { content: "\E094"; }
+
+.vector_rect { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E095" ); }
+.vector_rect:before { content: "\E095"; }
+
+.vector_circle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E096" ); }
+.vector_circle:before { content: "\E096"; }
+
+.vector_polygon { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E097" ); }
+.vector_polygon:before { content: "\E097"; }
+
+.vector_line { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E098" ); }
+.vector_line:before { content: "\E098"; }
+
+.vector_curve { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E099" ); }
+.vector_curve:before { content: "\E099"; }
+
+.vector_all { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E100" ); }
+.vector_all:before { content: "\E100"; }
+
+.font { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E101" ); }
+.font:before { content: "\E101"; }
+
+.italic { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E102" ); }
+.italic:before { content: "\E102"; }
+
+.bold { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E103" ); }
+.bold:before { content: "\E103"; }
+
+.text_underline { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E104" ); }
+.text_underline:before { content: "\E104"; }
+
+.text_strike { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E105" ); }
+.text_strike:before { content: "\E105"; }
+
+.text_height { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E106" ); }
+.text_height:before { content: "\E106"; }
+
+.text_width { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E107" ); }
+.text_width:before { content: "\E107"; }
+
+.text_resize { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E108" ); }
+.text_resize:before { content: "\E108"; }
+
+.left_indent { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E109" ); }
+.left_indent:before { content: "\E109"; }
+
+.right_indent { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E110" ); }
+.right_indent:before { content: "\E110"; }
+
+.align_left { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E111" ); }
+.align_left:before { content: "\E111"; }
+
+.align_center { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E112" ); }
+.align_center:before { content: "\E112"; }
+
+.align_right { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E113" ); }
+.align_right:before { content: "\E113"; }
+
+.justify { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E114" ); }
+.justify:before { content: "\E114"; }
+
+.list { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E115" ); }
+.list:before { content: "\E115"; }
+
+.text_smaller { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E116" ); }
+.text_smaller:before { content: "\E116"; }
+
+.text_bigger { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E117" ); }
+.text_bigger:before { content: "\E117"; }
+
+.embed { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E118" ); }
+.embed:before { content: "\E118"; }
+
+.embed_close { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E119" ); }
+.embed_close:before { content: "\E119"; }
+
+.table { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E120" ); }
+.table:before { content: "\E120"; }
+
+.message_full { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E121" ); }
+.message_full:before { content: "\E121"; }
+
+.message_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E122" ); }
+.message_empty:before { content: "\E122"; }
+
+.message_in { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E123" ); }
+.message_in:before { content: "\E123"; }
+
+.message_out { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E124" ); }
+.message_out:before { content: "\E124"; }
+
+.message_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E125" ); }
+.message_plus:before { content: "\E125"; }
+
+.message_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E126" ); }
+.message_minus:before { content: "\E126"; }
+
+.message_ban { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E127" ); }
+.message_ban:before { content: "\E127"; }
+
+.message_flag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E128" ); }
+.message_flag:before { content: "\E128"; }
+
+.message_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E129" ); }
+.message_lock:before { content: "\E129"; }
+
+.message_new { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E130" ); }
+.message_new:before { content: "\E130"; }
+
+.inbox { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E131" ); }
+.inbox:before { content: "\E131"; }
+
+.inbox_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E132" ); }
+.inbox_plus:before { content: "\E132"; }
+
+.inbox_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E133" ); }
+.inbox_minus:before { content: "\E133"; }
+
+.inbox_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E134" ); }
+.inbox_lock:before { content: "\E134"; }
+
+.inbox_in { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E135" ); }
+.inbox_in:before { content: "\E135"; }
+
+.inbox_out { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E136" ); }
+.inbox_out:before { content: "\E136"; }
+
+.cogwheel { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E137" ); }
+.cogwheel:before { content: "\E137"; }
+
+.cogwheels { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E138" ); }
+.cogwheels:before { content: "\E138"; }
+
+.picture { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E139" ); }
+.picture:before { content: "\E139"; }
+
+.adjust_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E140" ); }
+.adjust_alt:before { content: "\E140"; }
+
+.database_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E141" ); }
+.database_lock:before { content: "\E141"; }
+
+.database_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E142" ); }
+.database_plus:before { content: "\E142"; }
+
+.database_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E143" ); }
+.database_minus:before { content: "\E143"; }
+
+.database_ban { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E144" ); }
+.database_ban:before { content: "\E144"; }
+
+.folder_open { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E145" ); }
+.folder_open:before { content: "\E145"; }
+
+.folder_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E146" ); }
+.folder_plus:before { content: "\E146"; }
+
+.folder_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E147" ); }
+.folder_minus:before { content: "\E147"; }
+
+.folder_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E148" ); }
+.folder_lock:before { content: "\E148"; }
+
+.folder_flag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E149" ); }
+.folder_flag:before { content: "\E149"; }
+
+.folder_new { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E150" ); }
+.folder_new:before { content: "\E150"; }
+
+.edit { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E151" ); }
+.edit:before { content: "\E151"; }
+
+.new_window { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E152" ); }
+.new_window:before { content: "\E152"; }
+
+.checked { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E153" ); }
+.checked:before { content: "\E153"; }
+
+.unchecked { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E154" ); }
+.unchecked:before { content: "\E154"; }
+
+.more_windows { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E155" ); }
+.more_windows:before { content: "\E155"; }
+
+.show_big_thumbnails { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E156" ); }
+.show_big_thumbnails:before { content: "\E156"; }
+
+.show_thumbnails { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E157" ); }
+.show_thumbnails:before { content: "\E157"; }
+
+.show_thumbnails_with_lines { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E158" ); }
+.show_thumbnails_with_lines:before { content: "\E158"; }
+
+.show_lines { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E159" ); }
+.show_lines:before { content: "\E159"; }
+
+.playlist { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E160" ); }
+.playlist:before { content: "\E160"; }
+
+.imac { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E161" ); }
+.imac:before { content: "\E161"; }
+
+.macbook { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E162" ); }
+.macbook:before { content: "\E162"; }
+
+.ipad { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E163" ); }
+.ipad:before { content: "\E163"; }
+
+.iphone { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E164" ); }
+.iphone:before { content: "\E164"; }
+
+.iphone_transfer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E165" ); }
+.iphone_transfer:before { content: "\E165"; }
+
+.iphone_exchange { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E166" ); }
+.iphone_exchange:before { content: "\E166"; }
+
+.ipod { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E167" ); }
+.ipod:before { content: "\E167"; }
+
+.ipod_shuffle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E168" ); }
+.ipod_shuffle:before { content: "\E168"; }
+
+.ear_plugs { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E169" ); }
+.ear_plugs:before { content: "\E169"; }
+
+.record { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E170" ); }
+.record:before { content: "\E170"; }
+
+.step_backward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E171" ); }
+.step_backward:before { content: "\E171"; }
+
+.fast_backward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E172" ); }
+.fast_backward:before { content: "\E172"; }
+
+.rewind { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E173" ); }
+.rewind:before { content: "\E173"; }
+
+.play { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E174" ); }
+.play:before { content: "\E174"; }
+
+.pause { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E175" ); }
+.pause:before { content: "\E175"; }
+
+.stop { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E176" ); }
+.stop:before { content: "\E176"; }
+
+.forward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E177" ); }
+.forward:before { content: "\E177"; }
+
+.fast_forward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E178" ); }
+.fast_forward:before { content: "\E178"; }
+
+.step_forward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E179" ); }
+.step_forward:before { content: "\E179"; }
+
+.eject { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E180" ); }
+.eject:before { content: "\E180"; }
+
+.facetime_video { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E181" ); }
+.facetime_video:before { content: "\E181"; }
+
+.download_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E182" ); }
+.download_alt:before { content: "\E182"; }
+
+.mute { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E183" ); }
+.mute:before { content: "\E183"; }
+
+.volume_down { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E184" ); }
+.volume_down:before { content: "\E184"; }
+
+.volume_up { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E185" ); }
+.volume_up:before { content: "\E185"; }
+
+.screenshot { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E186" ); }
+.screenshot:before { content: "\E186"; }
+
+.move { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E187" ); }
+.move:before { content: "\E187"; }
+
+.more { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E188" ); }
+.more:before { content: "\E188"; }
+
+.brightness_reduce { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E189" ); }
+.brightness_reduce:before { content: "\E189"; }
+
+.brightness_increase { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E190" ); }
+.brightness_increase:before { content: "\E190"; }
+
+.circle_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E191" ); }
+.circle_plus:before { content: "\E191"; }
+
+.circle_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E192" ); }
+.circle_minus:before { content: "\E192"; }
+
+.circle_remove { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E193" ); }
+.circle_remove:before { content: "\E193"; }
+
+.circle_ok { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E194" ); }
+.circle_ok:before { content: "\E194"; }
+
+.circle_question { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E195" ); }
+.circle_question:before { content: "\E195"; }
+
+.circle_info { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E196" ); }
+.circle_info:before { content: "\E196"; }
+
+.circle_exclamation { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E197" ); }
+.circle_exclamation:before { content: "\E197"; }
+
+.circle_remove_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E198" ); }
+.circle_remove_empty:before { content: "\E198"; }
+
+.circle_ok_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E199" ); }
+.circle_ok_empty:before { content: "\E199"; }
+
+.circle_ban_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E200" ); }
+.circle_ban_empty:before { content: "\E200"; }
+
+.circle_download_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E201" ); }
+.circle_download_empty:before { content: "\E201"; }
+
+.circle_upload_empty { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E202" ); }
+.circle_upload_empty:before { content: "\E202"; }
+
+.cart { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E203" ); }
+.cart:before { content: "\E203"; }
+
+.lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E204" ); }
+.lock:before { content: "\E204"; }
+
+.unlock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E205" ); }
+.unlock:before { content: "\E205"; }
+
+.electricity { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E206" ); }
+.electricity:before { content: "\E206"; }
+
+.ok { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E207" ); }
+.ok:before { content: "\E207"; }
+
+.remove { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E208" ); }
+.remove:before { content: "\E208"; }
+
+.cart_out { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E209" ); }
+.cart_out:before { content: "\E209"; }
+
+.cart_in { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E210" ); }
+.cart_in:before { content: "\E210"; }
+
+.left_arrow { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E211" ); }
+.left_arrow:before { content: "\E211"; }
+
+.right_arrow { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E212" ); }
+.right_arrow:before { content: "\E212"; }
+
+.down_arrow { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E213" ); }
+.down_arrow:before { content: "\E213"; }
+
+.up_arrow { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E214" ); }
+.up_arrow:before { content: "\E214"; }
+
+.resize_small { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E215" ); }
+.resize_small:before { content: "\E215"; }
+
+.resize_full { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E216" ); }
+.resize_full:before { content: "\E216"; }
+
+.circle_arrow_left { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E217" ); }
+.circle_arrow_left:before { content: "\E217"; }
+
+.circle_arrow_right { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E218" ); }
+.circle_arrow_right:before { content: "\E218"; }
+
+.circle_arrow_up { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E219" ); }
+.circle_arrow_up:before { content: "\E219"; }
+
+.circle_arrow_down { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E220" ); }
+.circle_arrow_down:before { content: "\E220"; }
+
+.play_button { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E221" ); }
+.play_button:before { content: "\E221"; }
+
+.unshare { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E222" ); }
+.unshare:before { content: "\E222"; }
+
+.share { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E223" ); }
+.share:before { content: "\E223"; }
+
+.chevron-right { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E224" ); }
+.chevron-right:before { content: "\E224"; }
+
+.chevron-left { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E225" ); }
+.chevron-left:before { content: "\E225"; }
+
+.bluetooth { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E226" ); }
+.bluetooth:before { content: "\E226"; }
+
+.euro { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\20AC" ); }
+.euro:before { content: "\20AC"; }
+
+.usd { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E228" ); }
+.usd:before { content: "\E228"; }
+
+.gbp { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E229" ); }
+.gbp:before { content: "\E229"; }
+
+.retweet_2 { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E230" ); }
+.retweet_2:before { content: "\E230"; }
+
+.moon { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E231" ); }
+.moon:before { content: "\E231"; }
+
+.sun { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2609" ); }
+.sun:before { content: "\2609"; }
+
+.cloud { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2601" ); }
+.cloud:before { content: "\2601"; }
+
+.direction { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E234" ); }
+.direction:before { content: "\E234"; }
+
+.brush { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E235" ); }
+.brush:before { content: "\E235"; }
+
+.pen { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E236" ); }
+.pen:before { content: "\E236"; }
+
+.zoom_in { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E237" ); }
+.zoom_in:before { content: "\E237"; }
+
+.zoom_out { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E238" ); }
+.zoom_out:before { content: "\E238"; }
+
+.pin { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E239" ); }
+.pin:before { content: "\E239"; }
+
+.albums { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E240" ); }
+.albums:before { content: "\E240"; }
+
+.rotation_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E241" ); }
+.rotation_lock:before { content: "\E241"; }
+
+.flash { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E242" ); }
+.flash:before { content: "\E242"; }
+
+.google_maps { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E243" ); }
+.google_maps:before { content: "\E243"; }
+
+.anchor { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2693" ); }
+.anchor:before { content: "\2693"; }
+
+.conversation { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E245" ); }
+.conversation:before { content: "\E245"; }
+
+.chat { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E246" ); }
+.chat:before { content: "\E246"; }
+
+.male { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E247" ); }
+.male:before { content: "\E247"; }
+
+.female { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E248" ); }
+.female:before { content: "\E248"; }
+
+.asterisk { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\002A" ); }
+.asterisk:before { content: "\002A"; }
+
+.divide { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\00F7" ); }
+.divide:before { content: "\00F7"; }
+
+.snorkel_diving { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E251" ); }
+.snorkel_diving:before { content: "\E251"; }
+
+.scuba_diving { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E252" ); }
+.scuba_diving:before { content: "\E252"; }
+
+.oxygen_bottle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E253" ); }
+.oxygen_bottle:before { content: "\E253"; }
+
+.fins { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E254" ); }
+.fins:before { content: "\E254"; }
+
+.fishes { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E255" ); }
+.fishes:before { content: "\E255"; }
+
+.boat { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E256" ); }
+.boat:before { content: "\E256"; }
+
+.delete { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E257" ); }
+.delete:before { content: "\E257"; }
+
+.sheriffs_star { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E258" ); }
+.sheriffs_star:before { content: "\E258"; }
+
+.qrcode { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E259" ); }
+.qrcode:before { content: "\E259"; }
+
+.barcode { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E260" ); }
+.barcode:before { content: "\E260"; }
+
+.pool { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E261" ); }
+.pool:before { content: "\E261"; }
+
+.buoy { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E262" ); }
+.buoy:before { content: "\E262"; }
+
+.spade { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E263" ); }
+.spade:before { content: "\E263"; }
+
+.bank { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E264" ); }
+.bank:before { content: "\E264"; }
+
+.vcard { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E265" ); }
+.vcard:before { content: "\E265"; }
+
+.electrical_plug { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E266" ); }
+.electrical_plug:before { content: "\E266"; }
+
+.flag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E267" ); }
+.flag:before { content: "\E267"; }
+
+.credit_card { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E268" ); }
+.credit_card:before { content: "\E268"; }
+
+.keyboard { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E269" ); }
+.keyboard:before { content: "\E269"; }
+
+.keyboard_wired { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E270" ); }
+.keyboard_wired:before { content: "\E270"; }
+
+.shield { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E271" ); }
+.shield:before { content: "\E271"; }
+
+.ring { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\02DA" ); }
+.ring:before { content: "\02DA"; }
+
+.cake { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E273" ); }
+.cake:before { content: "\E273"; }
+
+.drink { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E274" ); }
+.drink:before { content: "\E274"; }
+
+.beer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E275" ); }
+.beer:before { content: "\E275"; }
+
+.fast_food { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E276" ); }
+.fast_food:before { content: "\E276"; }
+
+.cutlery { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E277" ); }
+.cutlery:before { content: "\E277"; }
+
+.pizza { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E278" ); }
+.pizza:before { content: "\E278"; }
+
+.birthday_cake { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E279" ); }
+.birthday_cake:before { content: "\E279"; }
+
+.tablet { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E280" ); }
+.tablet:before { content: "\E280"; }
+
+.settings { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E281" ); }
+.settings:before { content: "\E281"; }
+
+.bullets { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E282" ); }
+.bullets:before { content: "\E282"; }
+
+.cardio { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E283" ); }
+.cardio:before { content: "\E283"; }
+
+.t-shirt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E284" ); }
+.t-shirt:before { content: "\E284"; }
+
+.pants { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E285" ); }
+.pants:before { content: "\E285"; }
+
+.sweater { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E286" ); }
+.sweater:before { content: "\E286"; }
+
+.fabric { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E287" ); }
+.fabric:before { content: "\E287"; }
+
+.leather { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E288" ); }
+.leather:before { content: "\E288"; }
+
+.scissors { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E289" ); }
+.scissors:before { content: "\E289"; }
+
+.bomb { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E290" ); }
+.bomb:before { content: "\E290"; }
+
+.skull { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E291" ); }
+.skull:before { content: "\E291"; }
+
+.celebration { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E292" ); }
+.celebration:before { content: "\E292"; }
+
+.tea_kettle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E293" ); }
+.tea_kettle:before { content: "\E293"; }
+
+.french_press { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E294" ); }
+.french_press:before { content: "\E294"; }
+
+.coffee_cup { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E295" ); }
+.coffee_cup:before { content: "\E295"; }
+
+.pot { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E296" ); }
+.pot:before { content: "\E296"; }
+
+.grater { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E297" ); }
+.grater:before { content: "\E297"; }
+
+.kettle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E298" ); }
+.kettle:before { content: "\E298"; }
+
+.hospital { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E299" ); }
+.hospital:before { content: "\E299"; }
+
+.hospital_h { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E300" ); }
+.hospital_h:before { content: "\E300"; }
+
+.microphone { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E301" ); }
+.microphone:before { content: "\E301"; }
+
+.webcam { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E302" ); }
+.webcam:before { content: "\E302"; }
+
+.temple_christianity { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E303" ); }
+.temple_christianity:before { content: "\E303"; }
+
+.temple_islam { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E304" ); }
+.temple_islam:before { content: "\E304"; }
+
+.temple_hindu { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E305" ); }
+.temple_hindu:before { content: "\E305"; }
+
+.temple_buddhist { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E306" ); }
+.temple_buddhist:before { content: "\E306"; }
+
+.bicycle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E307" ); }
+.bicycle:before { content: "\E307"; }
+
+.life_preserver { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E308" ); }
+.life_preserver:before { content: "\E308"; }
+
+.share_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E309" ); }
+.share_alt:before { content: "\E309"; }
+
+.comments { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E310" ); }
+.comments:before { content: "\E310"; }
+
+.flower { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2698" ); }
+.flower:before { content: "\2698"; }
+
+.baseball { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\26BE" ); }
+.baseball:before { content: "\26BE"; }
+
+.rugby { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E313" ); }
+.rugby:before { content: "\E313"; }
+
+.ax { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E314" ); }
+.ax:before { content: "\E314"; }
+
+.pingpong { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E315" ); }
+.pingpong:before { content: "\E315"; }
+
+.bowling { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E316" ); }
+.bowling:before { content: "\E316"; }
+
+.tree_conifer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E317" ); }
+.tree_conifer:before { content: "\E317"; }
+
+.tree_deciduous { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E318" ); }
+.tree_deciduous:before { content: "\E318"; }
+
+.more_items { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E319" ); }
+.more_items:before { content: "\E319"; }
+
+.sort { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E320" ); }
+.sort:before { content: "\E320"; }
+
+.filter { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E321" ); }
+.filter:before { content: "\E321"; }
+
+.gamepad { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E322" ); }
+.gamepad:before { content: "\E322"; }
+
+.playing_dices { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E323" ); }
+.playing_dices:before { content: "\E323"; }
+
+.calculator { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E324" ); }
+.calculator:before { content: "\E324"; }
+
+.tie { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E325" ); }
+.tie:before { content: "\E325"; }
+
+.wallet { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E326" ); }
+.wallet:before { content: "\E326"; }
+
+.piano { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E327" ); }
+.piano:before { content: "\E327"; }
+
+.sampler { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E328" ); }
+.sampler:before { content: "\E328"; }
+
+.podium { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E329" ); }
+.podium:before { content: "\E329"; }
+
+.football { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E330" ); }
+.football:before { content: "\E330"; }
+
+.blog { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E331" ); }
+.blog:before { content: "\E331"; }
+
+.dashboard { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E332" ); }
+.dashboard:before { content: "\E332"; }
+
+.certificate { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E333" ); }
+.certificate:before { content: "\E333"; }
+
+.bell { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E334" ); }
+.bell:before { content: "\E334"; }
+
+.candle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E335" ); }
+.candle:before { content: "\E335"; }
+
+.pushpin { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E336" ); }
+.pushpin:before { content: "\E336"; }
+
+.iphone_shake { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E337" ); }
+.iphone_shake:before { content: "\E337"; }
+
+.pin_flag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E338" ); }
+.pin_flag:before { content: "\E338"; }
+
+.turtle { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E339" ); }
+.turtle:before { content: "\E339"; }
+
+.rabbit { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E340" ); }
+.rabbit:before { content: "\E340"; }
+
+.globe { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E341" ); }
+.globe:before { content: "\E341"; }
+
+.briefcase { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E342" ); }
+.briefcase:before { content: "\E342"; }
+
+.hdd { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E343" ); }
+.hdd:before { content: "\E343"; }
+
+.thumbs_up { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E344" ); }
+.thumbs_up:before { content: "\E344"; }
+
+.thumbs_down { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E345" ); }
+.thumbs_down:before { content: "\E345"; }
+
+.hand_right { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E346" ); }
+.hand_right:before { content: "\E346"; }
+
+.hand_left { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E347" ); }
+.hand_left:before { content: "\E347"; }
+
+.hand_up { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E348" ); }
+.hand_up:before { content: "\E348"; }
+
+.hand_down { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E349" ); }
+.hand_down:before { content: "\E349"; }
+
+.fullscreen { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E350" ); }
+.fullscreen:before { content: "\E350"; }
+
+.bag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E351" ); }
+.bag:before { content: "\E351"; }
+
+.book_open { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E352" ); }
+.book_open:before { content: "\E352"; }
+
+.nameplate { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E353" ); }
+.nameplate:before { content: "\E353"; }
+
+.nameplate_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E354" ); }
+.nameplate_alt:before { content: "\E354"; }
+
+.vases { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E355" ); }
+.vases:before { content: "\E355"; }
+
+.bullhorn { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E356" ); }
+.bullhorn:before { content: "\E356"; }
+
+.dumbbell { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E357" ); }
+.dumbbell:before { content: "\E357"; }
+
+.suitcase { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E358" ); }
+.suitcase:before { content: "\E358"; }
+
+.file_import { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E359" ); }
+.file_import:before { content: "\E359"; }
+
+.file_export { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E360" ); }
+.file_export:before { content: "\E360"; }
+
+.bug { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E361" ); }
+.bug:before { content: "\E361"; }
+
+.crown { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E362" ); }
+.crown:before { content: "\E362"; }
+
+.smoking { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E363" ); }
+.smoking:before { content: "\E363"; }
+
+.cloud_download { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E364" ); }
+.cloud_download:before { content: "\E364"; }
+
+.cloud_upload { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E365" ); }
+.cloud_upload:before { content: "\E365"; }
+
+.restart { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E366" ); }
+.restart:before { content: "\E366"; }
+
+.security_camera { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E367" ); }
+.security_camera:before { content: "\E367"; }
+
+.expand { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E368" ); }
+.expand:before { content: "\E368"; }
+
+.collapse { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E369" ); }
+.collapse:before { content: "\E369"; }
+
+.collapse_top { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E370" ); }
+.collapse_top:before { content: "\E370"; }
+
+.globe_af { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E371" ); }
+.globe_af:before { content: "\E371"; }
+
+.global { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E372" ); }
+.global:before { content: "\E372"; }
+
+.spray { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E373" ); }
+.spray:before { content: "\E373"; }
+
+.nails { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E374" ); }
+.nails:before { content: "\E374"; }
+
+.claw_hammer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E375" ); }
+.claw_hammer:before { content: "\E375"; }
+
+.classic_hammer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E376" ); }
+.classic_hammer:before { content: "\E376"; }
+
+.hand_saw { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E377" ); }
+.hand_saw:before { content: "\E377"; }
+
+.riflescope { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E378" ); }
+.riflescope:before { content: "\E378"; }
+
+.electrical_socket_eu { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E379" ); }
+.electrical_socket_eu:before { content: "\E379"; }
+
+.electrical_socket_us { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E380" ); }
+.electrical_socket_us:before { content: "\E380"; }
+
+.message_forward { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E381" ); }
+.message_forward:before { content: "\E381"; }
+
+.coat_hanger { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E382" ); }
+.coat_hanger:before { content: "\E382"; }
+
+.dress { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E383" ); }
+.dress:before { content: "\E383"; }
+
+.bathrobe { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E384" ); }
+.bathrobe:before { content: "\E384"; }
+
+.shirt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E385" ); }
+.shirt:before { content: "\E385"; }
+
+.underwear { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E386" ); }
+.underwear:before { content: "\E386"; }
+
+.log_in { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E387" ); }
+.log_in:before { content: "\E387"; }
+
+.log_out { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E388" ); }
+.log_out:before { content: "\E388"; }
+
+.exit { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E389" ); }
+.exit:before { content: "\E389"; }
+
+.new_window_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E390" ); }
+.new_window_alt:before { content: "\E390"; }
+
+.video_sd { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E391" ); }
+.video_sd:before { content: "\E391"; }
+
+.video_hd { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E392" ); }
+.video_hd:before { content: "\E392"; }
+
+.subtitles { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E393" ); }
+.subtitles:before { content: "\E393"; }
+
+.sound_stereo { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E394" ); }
+.sound_stereo:before { content: "\E394"; }
+
+.sound_dolby { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E395" ); }
+.sound_dolby:before { content: "\E395"; }
+
+.sound_5_1 { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E396" ); }
+.sound_5_1:before { content: "\E396"; }
+
+.sound_6_1 { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E397" ); }
+.sound_6_1:before { content: "\E397"; }
+
+.sound_7_1 { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E398" ); }
+.sound_7_1:before { content: "\E398"; }
+
+.copyright_mark { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E399" ); }
+.copyright_mark:before { content: "\E399"; }
+
+.registration_mark { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E400" ); }
+.registration_mark:before { content: "\E400"; }
+
+.radar { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E401" ); }
+.radar:before { content: "\E401"; }
+
+.skateboard { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E402" ); }
+.skateboard:before { content: "\E402"; }
+
+.golf_course { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E403" ); }
+.golf_course:before { content: "\E403"; }
+
+.sorting { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E404" ); }
+.sorting:before { content: "\E404"; }
+
+.sort-by-alphabet { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E405" ); }
+.sort-by-alphabet:before { content: "\E405"; }
+
+.sort-by-alphabet-alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E406" ); }
+.sort-by-alphabet-alt:before { content: "\E406"; }
+
+.sort-by-order { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E407" ); }
+.sort-by-order:before { content: "\E407"; }
+
+.sort-by-order-alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E408" ); }
+.sort-by-order-alt:before { content: "\E408"; }
+
+.sort-by-attributes { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E409" ); }
+.sort-by-attributes:before { content: "\E409"; }
+
+.sort-by-attributes-alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E410" ); }
+.sort-by-attributes-alt:before { content: "\E410"; }
+
+.compressed { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E411" ); }
+.compressed:before { content: "\E411"; }
+
+.package { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E412" ); }
+.package:before { content: "\E412"; }
+
+.cloud_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E413" ); }
+.cloud_plus:before { content: "\E413"; }
+
+.cloud_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E414" ); }
+.cloud_minus:before { content: "\E414"; }
+
+.disk_save { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E415" ); }
+.disk_save:before { content: "\E415"; }
+
+.disk_open { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E416" ); }
+.disk_open:before { content: "\E416"; }
+
+.disk_saved { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E417" ); }
+.disk_saved:before { content: "\E417"; }
+
+.disk_remove { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E418" ); }
+.disk_remove:before { content: "\E418"; }
+
+.disk_import { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E419" ); }
+.disk_import:before { content: "\E419"; }
+
+.disk_export { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E420" ); }
+.disk_export:before { content: "\E420"; }
+
+.tower { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E421" ); }
+.tower:before { content: "\E421"; }
+
+.send { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E422" ); }
+.send:before { content: "\E422"; }
+
+.git_branch { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E423" ); }
+.git_branch:before { content: "\E423"; }
+
+.git_create { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E424" ); }
+.git_create:before { content: "\E424"; }
+
+.git_private { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E425" ); }
+.git_private:before { content: "\E425"; }
+
+.git_delete { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E426" ); }
+.git_delete:before { content: "\E426"; }
+
+.git_merge { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E427" ); }
+.git_merge:before { content: "\E427"; }
+
+.git_pull_request { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E428" ); }
+.git_pull_request:before { content: "\E428"; }
+
+.git_compare { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E429" ); }
+.git_compare:before { content: "\E429"; }
+
+.git_commit { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E430" ); }
+.git_commit:before { content: "\E430"; }
+
+.construction_cone { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E431" ); }
+.construction_cone:before { content: "\E431"; }
+
+.shoe_steps { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E432" ); }
+.shoe_steps:before { content: "\E432"; }
+
+.plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\002B" ); }
+.plus:before { content: "\002B"; }
+
+.minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\2212" ); }
+.minus:before { content: "\2212"; }
+
+.redo { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E435" ); }
+.redo:before { content: "\E435"; }
+
+.undo { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E436" ); }
+.undo:before { content: "\E436"; }
+
+.golf { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E437" ); }
+.golf:before { content: "\E437"; }
+
+.hockey { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E438" ); }
+.hockey:before { content: "\E438"; }
+
+.pipe { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E439" ); }
+.pipe:before { content: "\E439"; }
+
+.wrench { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E440" ); }
+.wrench:before { content: "\E440"; }
+
+.folder_closed { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E441" ); }
+.folder_closed:before { content: "\E441"; }
+
+.phone_alt { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E442" ); }
+.phone_alt:before { content: "\E442"; }
+
+.earphone { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E443" ); }
+.earphone:before { content: "\E443"; }
+
+.floppy_disk { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E444" ); }
+.floppy_disk:before { content: "\E444"; }
+
+.floppy_saved { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E445" ); }
+.floppy_saved:before { content: "\E445"; }
+
+.floppy_remove { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E446" ); }
+.floppy_remove:before { content: "\E446"; }
+
+.floppy_save { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E447" ); }
+.floppy_save:before { content: "\E447"; }
+
+.floppy_open { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E448" ); }
+.floppy_open:before { content: "\E448"; }
+
+.translate { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E449" ); }
+.translate:before { content: "\E449"; }
+
+.fax { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E450" ); }
+.fax:before { content: "\E450"; }
+
+.factory { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E451" ); }
+.factory:before { content: "\E451"; }
+
+.shop_window { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E452" ); }
+.shop_window:before { content: "\E452"; }
+
+.shop { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E453" ); }
+.shop:before { content: "\E453"; }
+
+.kiosk { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E454" ); }
+.kiosk:before { content: "\E454"; }
+
+.kiosk_wheels { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E455" ); }
+.kiosk_wheels:before { content: "\E455"; }
+
+.kiosk_light { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E456" ); }
+.kiosk_light:before { content: "\E456"; }
+
+.kiosk_food { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E457" ); }
+.kiosk_food:before { content: "\E457"; }
+
+.transfer { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E458" ); }
+.transfer:before { content: "\E458"; }
+
+.money { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E459" ); }
+.money:before { content: "\E459"; }
+
+.header { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E460" ); }
+.header:before { content: "\E460"; }
+
+.blacksmith { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E461" ); }
+.blacksmith:before { content: "\E461"; }
+
+.saw_blade { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E462" ); }
+.saw_blade:before { content: "\E462"; }
+
+.basketball { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E463" ); }
+.basketball:before { content: "\E463"; }
+
+.server { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E464" ); }
+.server:before { content: "\E464"; }
+
+.server_plus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E465" ); }
+.server_plus:before { content: "\E465"; }
+
+.server_minus { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E466" ); }
+.server_minus:before { content: "\E466"; }
+
+.server_ban { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E467" ); }
+.server_ban:before { content: "\E467"; }
+
+.server_flag { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E468" ); }
+.server_flag:before { content: "\E468"; }
+
+.server_lock { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E469" ); }
+.server_lock:before { content: "\E469"; }
+
+.server_new { *zoom: expression( this.runtimeStyle["zoom"] = "1",this.innerHTML = "\E470" ); }
+.server_new:before { content: "\E470"; }
